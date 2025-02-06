@@ -1,0 +1,1437 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+.desktop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
+  }
+  
+  .desktop .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 100px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--neutralbackground);
+  }
+  
+  .desktop .creativepulse {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+  }
+  
+  .desktop .div {
+    display: inline-flex;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--desktop-link-medium-font-family);
+    font-weight: var(--desktop-link-medium-font-weight);
+    color: #121212;
+    font-size: var(--desktop-link-medium-font-size);
+    letter-spacing: var(--desktop-link-medium-letter-spacing);
+    line-height: var(--desktop-link-medium-line-height);
+    white-space: nowrap;
+    font-style: var(--desktop-link-medium-font-style);
+  }
+  
+  .desktop .frame {
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .div-wrapper {
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 25px;
+    position: relative;
+    background-color: var(--brandprimary);
+    border-radius: 16px;
+  }
+  
+  .desktop .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .desktop .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 74px;
+    padding: 80px 100px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--neutralbackground);
+  }
+  
+  .desktop .frame-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 43px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .crafting-beautiful {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--desktop-heading-1-font-family);
+    font-weight: var(--desktop-heading-1-font-weight);
+    color: transparent;
+    font-size: var(--desktop-heading-1-font-size);
+    letter-spacing: var(--desktop-heading-1-letter-spacing);
+    line-height: var(--desktop-heading-1-line-height);
+    font-style: var(--desktop-heading-1-font-style);
+  }
+  
+  .desktop .span {
+    color: #076bdb;
+    font-family: var(--desktop-heading-1-font-family);
+    font-style: var(--desktop-heading-1-font-style);
+    font-weight: var(--desktop-heading-1-font-weight);
+    letter-spacing: var(--desktop-heading-1-letter-spacing);
+    line-height: var(--desktop-heading-1-line-height);
+    font-size: var(--desktop-heading-1-font-size);
+  }
+  
+  .desktop .text-wrapper-3 {
+    color: #011e69;
+    font-family: var(--desktop-heading-1-font-family);
+    font-style: var(--desktop-heading-1-font-style);
+    font-weight: var(--desktop-heading-1-font-weight);
+    letter-spacing: var(--desktop-heading-1-letter-spacing);
+    line-height: var(--desktop-heading-1-line-height);
+    font-size: var(--desktop-heading-1-font-size);
+  }
+  
+  .desktop .p {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--desktop-body-large-reguler-font-family);
+    font-weight: var(--desktop-body-large-reguler-font-weight);
+    color: var(--textprimary);
+    font-size: var(--desktop-body-large-reguler-font-size);
+    letter-spacing: var(--desktop-body-large-reguler-letter-spacing);
+    line-height: var(--desktop-body-large-reguler-line-height);
+    font-style: var(--desktop-body-large-reguler-font-style);
+  }
+  
+  .desktop .frame-3 {
+    width: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 25px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--brandprimary);
+    border-radius: 16px;
+  }
+  
+  .desktop .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--desktop-button-font-family);
+    font-weight: var(--desktop-button-font-weight);
+    color: #ffffff;
+    font-size: var(--desktop-button-font-size);
+    letter-spacing: var(--desktop-button-letter-spacing);
+    line-height: var(--desktop-button-line-height);
+    white-space: nowrap;
+    font-style: var(--desktop-button-font-style);
+  }
+  
+  .desktop .group {
+    position: relative;
+    width: 925px;
+    height: 1000px;
+    margin-top: -196.60px;
+    margin-bottom: -133.30px;
+    margin-right: -100.00px;
+  }
+  
+  .desktop .frame-4 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 30px;
+    position: absolute;
+    top: 529px;
+    left: 1068px;
+    background-color: var(--neutralwhite);
+    border-radius: 16px;
+    box-shadow: 10px 10px 30px #87c0eb1f;
+  }
+  
+  .desktop .frame-5 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .img {
+    position: relative;
+    width: 30px;
+    height: 30px;
+  }
+  
+  .desktop .frame-6 {
+    display: flex;
+    flex-direction: column;
+    width: 133px;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .desktop .text-wrapper-5 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--desktop-body-small-semi-bold-font-family);
+    font-weight: var(--desktop-body-small-semi-bold-font-weight);
+    color: var(--neutralblack);
+    font-size: var(--desktop-body-small-semi-bold-font-size);
+    letter-spacing: var(--desktop-body-small-semi-bold-letter-spacing);
+    line-height: var(--desktop-body-small-semi-bold-line-height);
+    font-style: var(--desktop-body-small-semi-bold-font-style);
+  }
+  
+  .desktop .text-wrapper-6 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--desktop-caption-font-family);
+    font-weight: var(--desktop-caption-font-weight);
+    color: var(--textsecondary);
+    font-size: var(--desktop-caption-font-size);
+    letter-spacing: var(--desktop-caption-letter-spacing);
+    line-height: var(--desktop-caption-line-height);
+    font-style: var(--desktop-caption-font-style);
+  }
+  
+  .desktop .frame-7 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .div-2 {
+    display: flex;
+    width: 1440px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 100px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--neutralbackground);
+  }
+  
+  .desktop .untitled-design {
+    position: absolute;
+    width: 690px;
+    height: 690px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .desktop .untitled-design-2 {
+    position: relative;
+    width: 463px;
+    height: 530px;
+    margin-left: -590px;
+  }
+  
+  .desktop .frame-8 {
+    display: flex;
+    flex-direction: column;
+    width: 728px;
+    align-items: flex-start;
+    gap: 50px;
+    position: relative;
+    margin-left: -590px;
+  }
+  
+  .desktop .frame-9 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .div-3 {
+    margin-top: -1.00px;
+    font-family: var(--desktop-heading-3-font-family);
+    font-weight: var(--desktop-heading-3-font-weight);
+    color: transparent;
+    font-size: var(--desktop-heading-3-font-size);
+    line-height: var(--desktop-heading-3-line-height);
+    position: relative;
+    align-self: stretch;
+    letter-spacing: var(--desktop-heading-3-letter-spacing);
+    font-style: var(--desktop-heading-3-font-style);
+  }
+  
+  .desktop .text-wrapper-7 {
+    color: #076bdb;
+    font-family: var(--desktop-heading-3-font-family);
+    font-style: var(--desktop-heading-3-font-style);
+    font-weight: var(--desktop-heading-3-font-weight);
+    letter-spacing: var(--desktop-heading-3-letter-spacing);
+    line-height: var(--desktop-heading-3-line-height);
+    font-size: var(--desktop-heading-3-font-size);
+  }
+  
+  .desktop .text-wrapper-8 {
+    color: #011e69;
+    font-family: var(--desktop-heading-3-font-family);
+    font-style: var(--desktop-heading-3-font-style);
+    font-weight: var(--desktop-heading-3-font-weight);
+    letter-spacing: var(--desktop-heading-3-letter-spacing);
+    line-height: var(--desktop-heading-3-line-height);
+    font-size: var(--desktop-heading-3-font-size);
+  }
+  
+  .desktop .text-wrapper-9 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--desktop-heading-2-font-family);
+    font-weight: var(--desktop-heading-2-font-weight);
+    color: var(--brandprimary);
+    font-size: var(--desktop-heading-2-font-size);
+    letter-spacing: var(--desktop-heading-2-letter-spacing);
+    line-height: var(--desktop-heading-2-line-height);
+    font-style: var(--desktop-heading-2-font-style);
+  }
+  
+  .desktop .frame-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper-10 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--desktop-body-large-reguler-font-family);
+    font-weight: var(--desktop-body-large-reguler-font-weight);
+    color: var(--textsecondary);
+    font-size: var(--desktop-body-large-reguler-font-size);
+    letter-spacing: var(--desktop-body-large-reguler-letter-spacing);
+    line-height: var(--desktop-body-large-reguler-line-height);
+    font-style: var(--desktop-body-large-reguler-font-style);
+  }
+  
+  .desktop .frame-11 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    padding: 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--neutralwhite);
+    border-radius: 16px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-color: var(--brandprimary);
+    box-shadow: 0px 15px 60px #8181811a;
+  }
+  
+  .desktop .text-wrapper-11 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -5.00px;
+    font-family: var(--desktop-body-small-semi-bold-font-family);
+    font-weight: var(--desktop-body-small-semi-bold-font-weight);
+    color: var(--textprimary);
+    font-size: var(--desktop-body-small-semi-bold-font-size);
+    letter-spacing: var(--desktop-body-small-semi-bold-letter-spacing);
+    line-height: var(--desktop-body-small-semi-bold-line-height);
+    font-style: var(--desktop-body-small-semi-bold-font-style);
+  }
+  
+  .desktop .text-wrapper-12 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Poppins-Regular";
+    font-weight: 400;
+    color: var(--textsecondary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+  }
+  
+  .desktop .frame-13 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    padding: 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--neutralwhite);
+    border-radius: 16px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-color: var(--brandprimary);
+    box-shadow: 0px 15px 60px #8181811a;
+  }
+  
+  .desktop .frame-14 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+    padding: 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--neutralwhite);
+    border-radius: 16px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-color: var(--brandprimary);
+    box-shadow: 0px 15px 60px #8181811a;
+  }
+  
+  .desktop .frame-15 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+    padding: 20px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    background-color: var(--neutralwhite);
+    border-radius: 16px;
+    border-top-width: 5px;
+    border-top-style: solid;
+    border-color: var(--brandprimary);
+    box-shadow: 0px 15px 60px #8181811a;
+  }
+  
+  .desktop .service {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: center;
+    gap: 40px;
+    padding: 80px 100px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--neutralbackground);
+  }
+  
+  .desktop .frame-16 {
+    display: flex;
+    width: 1240px;
+    align-items: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+    overflow-x: scroll;
+  }
+  
+  .desktop .frame-16::-webkit-scrollbar {
+    width: 0;
+    display: none;
+  }
+  
+  .desktop .frame-17 {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    position: relative;
+    background-color: var(--neutralwhite);
+    border-radius: 16px;
+    box-shadow: 0px 15px 60px #8181811a;
+  }
+  
+  .desktop .element {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .desktop .text-wrapper-13 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--desktop-heading-4-font-family);
+    font-weight: var(--desktop-heading-4-font-weight);
+    color: var(--textprimary);
+    font-size: var(--desktop-heading-4-font-size);
+    text-align: center;
+    letter-spacing: var(--desktop-heading-4-letter-spacing);
+    line-height: var(--desktop-heading-4-line-height);
+    font-style: var(--desktop-heading-4-font-style);
+  }
+  
+  .desktop .frame-18 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper-14 {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--desktop-body-large-reguler-font-family);
+    font-weight: var(--desktop-body-large-reguler-font-weight);
+    color: var(--textsecondary);
+    font-size: var(--desktop-body-large-reguler-font-size);
+    letter-spacing: var(--desktop-body-large-reguler-letter-spacing);
+    line-height: var(--desktop-body-large-reguler-line-height);
+    font-style: var(--desktop-body-large-reguler-font-style);
+  }
+  
+  .desktop .frame-19 {
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+    position: relative;
+    border-radius: 16px;
+    box-shadow: 0px 15px 60px #8181811a;
+    background: linear-gradient(
+      180deg,
+      rgb(7, 107, 219) 0%,
+      rgb(63, 150.49, 233) 100%
+    );
+  }
+  
+  .desktop .text-wrapper-15 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--desktop-heading-4-font-family);
+    font-weight: var(--desktop-heading-4-font-weight);
+    color: var(--neutralwhite);
+    font-size: var(--desktop-heading-4-font-size);
+    text-align: center;
+    letter-spacing: var(--desktop-heading-4-letter-spacing);
+    line-height: var(--desktop-heading-4-line-height);
+    font-style: var(--desktop-heading-4-font-style);
+  }
+  
+  .desktop .text-wrapper-16 {
+    position: relative;
+    flex: 1;
+    margin-top: -1.00px;
+    font-family: var(--desktop-body-large-reguler-font-family);
+    font-weight: var(--desktop-body-large-reguler-font-weight);
+    color: var(--neutralwhite);
+    font-size: var(--desktop-body-large-reguler-font-size);
+    letter-spacing: var(--desktop-body-large-reguler-letter-spacing);
+    line-height: var(--desktop-body-large-reguler-line-height);
+    font-style: var(--desktop-body-large-reguler-font-style);
+  }
+  
+  .desktop .frame-20 {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .ellipse {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    background-color: var(--brandlight);
+    border-radius: 7.5px;
+  }
+  
+  .desktop .rectangle {
+    position: relative;
+    width: 30px;
+    height: 15px;
+    background-color: var(--brandprimary);
+    border-radius: 10px;
+  }
+  
+  .desktop .portofolio {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: flex-start;
+    gap: 97px;
+    padding: 80px 100px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--neutralbackground);
+  }
+  
+  .desktop .frame-21 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-22 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .rectangle-2 {
+    position: relative;
+    width: 266px;
+    height: 416px;
+    object-fit: cover;
+  }
+  
+  .desktop .rectangle-3 {
+    position: relative;
+    flex: 1;
+    width: 266px;
+    flex-grow: 1;
+  }
+  
+  .desktop .rectangle-4 {
+    position: relative;
+    width: 580px;
+    height: 632px;
+    object-fit: cover;
+  }
+  
+  .desktop .frame-23 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 50px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .rectangle-5 {
+    position: relative;
+    flex: 1;
+    width: 291px;
+    flex-grow: 1;
+    object-fit: cover;
+  }
+  
+  .desktop .rectangle-6 {
+    position: relative;
+    width: 291px;
+    height: 291px;
+    object-fit: cover;
+  }
+  
+  .desktop .frame-24 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .frame-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0px 50px 0px 0px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-25 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 15px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-top: -5.00px;
+    margin-bottom: -5.00px;
+    margin-left: -5.00px;
+    margin-right: -5.00px;
+    background-color: var(--neutralwhite);
+    border-radius: 16px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-color: var(--brandlight);
+    box-shadow: var(--m3-elevation-light-2);
+  }
+  
+  .desktop .ellipse-2 {
+    position: relative;
+    width: 75px;
+    height: 75px;
+  }
+  
+  .desktop .frame-26 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .text-wrapper-17 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "Poppins";
+    font-weight: 400;
+    color: var(--textprimary);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+  }
+  
+  .desktop .frame-27 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0px 30px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-28 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px 15px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-top: -5.00px;
+    margin-bottom: -5.00px;
+    margin-left: -5.00px;
+    margin-right: -5.00px;
+    background-color: var(--neutralwhite);
+    border-radius: 16px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-color: var(--brandprimary);
+    box-shadow: var(--m3-elevation-light-2);
+  }
+  
+  .desktop .ellipse-3 {
+    position: relative;
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+  }
+  
+  .desktop .frame-29 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 0px 0px 0px 50px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-30 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 0px 0px 0px 30px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .text-wrapper-18 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--desktop-body-large-reguler-font-family);
+    font-weight: var(--desktop-body-large-reguler-font-weight);
+    color: var(--textsecondary);
+    font-size: var(--desktop-body-large-reguler-font-size);
+    letter-spacing: var(--desktop-body-large-reguler-letter-spacing);
+    line-height: var(--desktop-body-large-reguler-line-height);
+    font-style: var(--desktop-body-large-reguler-font-style);
+  }
+  
+  .desktop .frame-31 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 16px 25px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgb(2, 43, 127) 0%, rgb(7, 107, 219) 100%);
+  }
+  
+  .desktop .text-wrapper-19 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: "Poppins-Bold";
+    font-weight: 700;
+    color: var(--neutralwhite);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .desktop .untitled-design-3 {
+    position: absolute;
+    width: 135px;
+    height: 135px;
+    top: 147px;
+    left: 1205px;
+    object-fit: cover;
+  }
+  
+  .desktop .contact {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    align-items: flex-start;
+    gap: 25px;
+    padding: 80px 100px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--brandprimary);
+  }
+  
+  .desktop .text-wrapper-20 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--desktop-heading-3-font-family);
+    font-weight: var(--desktop-heading-3-font-weight);
+    color: var(--neutralwhite);
+    font-size: var(--desktop-heading-3-font-size);
+    letter-spacing: var(--desktop-heading-3-letter-spacing);
+    line-height: var(--desktop-heading-3-line-height);
+    font-style: var(--desktop-heading-3-font-style);
+  }
+  
+  .desktop .text-wrapper-21 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--desktop-heading-2-font-family);
+    font-weight: var(--desktop-heading-2-font-weight);
+    color: var(--neutralwhite);
+    font-size: var(--desktop-heading-2-font-size);
+    letter-spacing: var(--desktop-heading-2-letter-spacing);
+    line-height: var(--desktop-heading-2-line-height);
+    font-style: var(--desktop-heading-2-font-style);
+  }
+  
+  .desktop .frame-32 {
+    display: flex;
+    flex-direction: column;
+    width: 545px;
+    height: 460px;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 70px 50px 80px;
+    position: absolute;
+    top: 80px;
+    left: 795px;
+    background-color: var(--brandlight);
+  }
+  
+  .desktop .text-wrapper-22 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -40.00px;
+    font-family: var(--desktop-heading-4-font-family);
+    font-weight: var(--desktop-heading-4-font-weight);
+    color: var(--branddark);
+    font-size: var(--desktop-heading-4-font-size);
+    text-align: center;
+    letter-spacing: var(--desktop-heading-4-letter-spacing);
+    line-height: var(--desktop-heading-4-line-height);
+    font-style: var(--desktop-heading-4-font-style);
+  }
+  
+  .desktop .frame-33 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-34 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 8px 16px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--neutralwhite);
+    border-radius: 8px;
+    border: 0.5px solid;
+    border-color: var(--textsecondary);
+  }
+  
+  .desktop .text-wrapper-23 {
+    margin-top: -0.50px;
+    opacity: 0.5;
+    font-family: "Poppins-Regular";
+    font-weight: 400;
+    color: var(--textsecondary);
+    position: relative;
+    width: fit-content;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .desktop .frame-35 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 16px 8px 50px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--neutralwhite);
+    border-radius: 8px;
+    border: 0.5px solid;
+    border-color: var(--textsecondary);
+  }
+  
+  .desktop .frame-36 {
+    align-self: stretch;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 16px 25px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--brandprimary);
+    border-radius: 16px;
+  }
+  
+  .desktop .text-wrapper-24 {
+    position: relative;
+    width: 538px;
+    font-family: var(--desktop-body-large-reguler-font-family);
+    font-weight: var(--desktop-body-large-reguler-font-weight);
+    color: var(--neutralwhite);
+    font-size: var(--desktop-body-large-reguler-font-size);
+    letter-spacing: var(--desktop-body-large-reguler-letter-spacing);
+    line-height: var(--desktop-body-large-reguler-line-height);
+    font-style: var(--desktop-body-large-reguler-font-style);
+  }
+  
+  .desktop .frame-37 {
+    display: flex;
+    flex-direction: column;
+    width: 423px;
+    align-items: flex-start;
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .img-2 {
+    position: relative;
+    width: 25px;
+    height: 25px;
+  }
+  
+  .desktop .text-wrapper-25 {
+    width: fit-content;
+    margin-top: -1.00px;
+    white-space: nowrap;
+    position: relative;
+    font-family: var(--desktop-body-large-reguler-font-family);
+    font-weight: var(--desktop-body-large-reguler-font-weight);
+    color: var(--neutralwhite);
+    font-size: var(--desktop-body-large-reguler-font-size);
+    letter-spacing: var(--desktop-body-large-reguler-letter-spacing);
+    line-height: var(--desktop-body-large-reguler-line-height);
+    font-style: var(--desktop-body-large-reguler-font-style);
+  }
+  
+  .desktop .frame-38 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .element-2 {
+    position: absolute;
+    width: 223px;
+    height: 378px;
+    top: 162px;
+    left: 631px;
+  }
+  
+  .desktop .footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 50px 100px 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    background-color: var(--branddark);
+  }
+  
+  .desktop .frame-39 {
+    display: flex;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 0px 0px 20px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-bottom-width: 0.5px;
+    border-bottom-style: solid;
+    border-color: #ffffff;
+  }
+  
+  .desktop .frame-40 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 25px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .lumina {
+    position: relative;
+    width: 203px;
+    height: 73px;
+  }
+  
+  .desktop .frame-41 {
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .frame-42 {
+    display: flex;
+    width: 835px;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 70px;
+    position: relative;
+  }
+  
+  .desktop .frame-43 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 9px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .desktop .text-wrapper-26 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--desktop-body-large-semi-bold-font-family);
+    font-weight: var(--desktop-body-large-semi-bold-font-weight);
+    color: #ffffff;
+    font-size: var(--desktop-body-large-semi-bold-font-size);
+    letter-spacing: var(--desktop-body-large-semi-bold-letter-spacing);
+    line-height: var(--desktop-body-large-semi-bold-line-height);
+    font-style: var(--desktop-body-large-semi-bold-font-style);
+  }
+  
+  .desktop .text-wrapper-27 {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--desktop-body-small-reguler-font-family);
+    font-weight: var(--desktop-body-small-reguler-font-weight);
+    color: #ffffff;
+    font-size: var(--desktop-body-small-reguler-font-size);
+    letter-spacing: var(--desktop-body-small-reguler-letter-spacing);
+    line-height: var(--desktop-body-small-reguler-line-height);
+    font-style: var(--desktop-body-small-reguler-font-style);
+  }
+  
+  .desktop .text-wrapper-28 {
+    align-self: stretch;
+    position: relative;
+    font-family: var(--desktop-body-large-reguler-font-family);
+    font-weight: var(--desktop-body-large-reguler-font-weight);
+    color: var(--neutralwhite);
+    font-size: var(--desktop-body-large-reguler-font-size);
+    letter-spacing: var(--desktop-body-large-reguler-letter-spacing);
+    line-height: var(--desktop-body-large-reguler-line-height);
+    font-style: var(--desktop-body-large-reguler-font-style);
+  }
+  
+  .desktop .frame-44 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .desktop .text-wrapper-29 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--desktop-body-small-reguler-font-family);
+    font-weight: var(--desktop-body-small-reguler-font-weight);
+    color: #ffffff;
+    font-size: var(--desktop-body-small-reguler-font-size);
+    letter-spacing: var(--desktop-body-small-reguler-letter-spacing);
+    line-height: var(--desktop-body-small-reguler-line-height);
+    white-space: nowrap;
+    font-style: var(--desktop-body-small-reguler-font-style);
+  }
+/* ---------------------------- */
+:root {
+    --branddark: rgba(1, 30, 105, 1);
+    --brandprimary: rgba(7, 107, 219, 1);
+    --brandlight: rgba(204, 236, 253, 1);
+    --neutralblack: rgba(0, 8, 22, 1);
+    --neutralbackground: rgba(245, 246, 248, 1);
+    --neutralwhite: rgba(255, 255, 255, 1);
+    --textprimary: rgba(18, 18, 18, 1);
+    --textsecondary: rgba(111, 110, 110, 1);
+    --desktop-heading-1-font-family: "Poppins";
+    --desktop-heading-1-font-weight: 700;
+    --desktop-heading-1-font-size: 48px;
+    --desktop-heading-1-letter-spacing: 0px;
+    --desktop-heading-1-line-height: 139.9999976158142%;
+    --desktop-heading-1-font-style: normal;
+    --desktop-heading-2-font-family: "Poppins";
+    --desktop-heading-2-font-weight: 700;
+    --desktop-heading-2-font-size: 36px;
+    --desktop-heading-2-letter-spacing: 0px;
+    --desktop-heading-2-line-height: 139.9999976158142%;
+    --desktop-heading-2-font-style: normal;
+    --desktop-heading-3-font-family: "Poppins";
+    --desktop-heading-3-font-weight: 700;
+    --desktop-heading-3-font-size: 28px;
+    --desktop-heading-3-letter-spacing: 0px;
+    --desktop-heading-3-line-height: 139.9999976158142%;
+    --desktop-heading-3-font-style: normal;
+    --desktop-heading-4-font-family: "Poppins";
+    --desktop-heading-4-font-weight: 700;
+    --desktop-heading-4-font-size: 24px;
+    --desktop-heading-4-letter-spacing: 0px;
+    --desktop-heading-4-line-height: 139.9999976158142%;
+    --desktop-heading-4-font-style: normal;
+    --desktop-body-large-reguler-font-family: "Poppins";
+    --desktop-body-large-reguler-font-weight: 400;
+    --desktop-body-large-reguler-font-size: 18px;
+    --desktop-body-large-reguler-letter-spacing: 0.05400000214576721px;
+    --desktop-body-large-reguler-line-height: 139.9999976158142%;
+    --desktop-body-large-reguler-font-style: normal;
+    --desktop-body-large-semi-bold-font-family: "Poppins";
+    --desktop-body-large-semi-bold-font-weight: 600;
+    --desktop-body-large-semi-bold-font-size: 18px;
+    --desktop-body-large-semi-bold-letter-spacing: 0px;
+    --desktop-body-large-semi-bold-line-height: 139.9999976158142%;
+    --desktop-body-large-semi-bold-font-style: normal;
+    --desktop-body-large-bold-font-family: "Poppins";
+    --desktop-body-large-bold-font-weight: 700;
+    --desktop-body-large-bold-font-size: 18px;
+    --desktop-body-large-bold-letter-spacing: 0px;
+    --desktop-body-large-bold-line-height: 139.9999976158142%;
+    --desktop-body-large-bold-font-style: normal;
+    --desktop-body-small-reguler-font-family: "Poppins";
+    --desktop-body-small-reguler-font-weight: 400;
+    --desktop-body-small-reguler-font-size: 16px;
+    --desktop-body-small-reguler-letter-spacing: 0px;
+    --desktop-body-small-reguler-line-height: 139.9999976158142%;
+    --desktop-body-small-reguler-font-style: normal;
+    --desktop-body-small-semi-bold-font-family: "Poppins";
+    --desktop-body-small-semi-bold-font-weight: 600;
+    --desktop-body-small-semi-bold-font-size: 16px;
+    --desktop-body-small-semi-bold-letter-spacing: 0px;
+    --desktop-body-small-semi-bold-line-height: 139.9999976158142%;
+    --desktop-body-small-semi-bold-font-style: normal;
+    --desktop-body-small-bold-font-family: "Poppins";
+    --desktop-body-small-bold-font-weight: 700;
+    --desktop-body-small-bold-font-size: 16px;
+    --desktop-body-small-bold-letter-spacing: 0px;
+    --desktop-body-small-bold-line-height: 139.9999976158142%;
+    --desktop-body-small-bold-font-style: normal;
+    --desktop-link-medium-font-family: "Poppins";
+    --desktop-link-medium-font-weight: 500;
+    --desktop-link-medium-font-size: 16px;
+    --desktop-link-medium-letter-spacing: 0px;
+    --desktop-link-medium-line-height: 139.9999976158142%;
+    --desktop-link-medium-font-style: normal;
+    --desktop-link-small-font-family: "Poppins";
+    --desktop-link-small-font-weight: 500;
+    --desktop-link-small-font-size: 14px;
+    --desktop-link-small-letter-spacing: 0px;
+    --desktop-link-small-line-height: 139.9999976158142%;
+    --desktop-link-small-font-style: normal;
+    --desktop-button-font-family: "Poppins";
+    --desktop-button-font-weight: 700;
+    --desktop-button-font-size: 16px;
+    --desktop-button-letter-spacing: 0px;
+    --desktop-button-line-height: 139.9999976158142%;
+    --desktop-button-font-style: normal;
+    --desktop-caption-font-family: "Poppins";
+    --desktop-caption-font-weight: 400;
+    --desktop-caption-font-size: 12px;
+    --desktop-caption-letter-spacing: 0px;
+    --desktop-caption-line-height: 139.9999976158142%;
+    --desktop-caption-font-style: normal;
+    --desktop-overline-semi-bold-font-family: "Poppins";
+    --desktop-overline-semi-bold-font-weight: 600;
+    --desktop-overline-semi-bold-font-size: 10px;
+    --desktop-overline-semi-bold-letter-spacing: 0px;
+    --desktop-overline-semi-bold-line-height: 139.9999976158142%;
+    --desktop-overline-semi-bold-font-style: normal;
+    --desktop-overline-medium-font-family: "Poppins";
+    --desktop-overline-medium-font-weight: 500;
+    --desktop-overline-medium-font-size: 10px;
+    --desktop-overline-medium-letter-spacing: 0px;
+    --desktop-overline-medium-line-height: 139.9999976158142%;
+    --desktop-overline-medium-font-style: normal;
+    --mobile-heading-1-font-family: "Poppins";
+    --mobile-heading-1-font-weight: 700;
+    --mobile-heading-1-font-size: 28px;
+    --mobile-heading-1-letter-spacing: 0px;
+    --mobile-heading-1-line-height: 139.9999976158142%;
+    --mobile-heading-1-font-style: normal;
+    --mobile-heading-2-font-family: "Poppins";
+    --mobile-heading-2-font-weight: 700;
+    --mobile-heading-2-font-size: 24px;
+    --mobile-heading-2-letter-spacing: 0px;
+    --mobile-heading-2-line-height: 139.9999976158142%;
+    --mobile-heading-2-font-style: normal;
+    --mobile-heading-3-font-family: "Poppins";
+    --mobile-heading-3-font-weight: 700;
+    --mobile-heading-3-font-size: 20px;
+    --mobile-heading-3-letter-spacing: 0px;
+    --mobile-heading-3-line-height: 139.9999976158142%;
+    --mobile-heading-3-font-style: normal;
+    --mobile-heading-4-font-family: "Poppins";
+    --mobile-heading-4-font-weight: 700;
+    --mobile-heading-4-font-size: 18px;
+    --mobile-heading-4-letter-spacing: 0px;
+    --mobile-heading-4-line-height: 139.9999976158142%;
+    --mobile-heading-4-font-style: normal;
+    --mobile-body-large-reguler-font-family: "Poppins";
+    --mobile-body-large-reguler-font-weight: 400;
+    --mobile-body-large-reguler-font-size: 16px;
+    --mobile-body-large-reguler-letter-spacing: 0px;
+    --mobile-body-large-reguler-line-height: 139.9999976158142%;
+    --mobile-body-large-reguler-font-style: normal;
+    --mobile-body-large-semi-bold-font-family: "Poppins";
+    --mobile-body-large-semi-bold-font-weight: 600;
+    --mobile-body-large-semi-bold-font-size: 16px;
+    --mobile-body-large-semi-bold-letter-spacing: 0px;
+    --mobile-body-large-semi-bold-line-height: 139.9999976158142%;
+    --mobile-body-large-semi-bold-font-style: normal;
+    --mobile-body-large-bold-font-family: "Poppins";
+    --mobile-body-large-bold-font-weight: 700;
+    --mobile-body-large-bold-font-size: 16px;
+    --mobile-body-large-bold-letter-spacing: 0px;
+    --mobile-body-large-bold-line-height: 139.9999976158142%;
+    --mobile-body-large-bold-font-style: normal;
+    --mobile-body-small-reguler-font-family: "Poppins";
+    --mobile-body-small-reguler-font-weight: 400;
+    --mobile-body-small-reguler-font-size: 14px;
+    --mobile-body-small-reguler-letter-spacing: 0px;
+    --mobile-body-small-reguler-line-height: 139.9999976158142%;
+    --mobile-body-small-reguler-font-style: normal;
+    --mobile-body-small-semi-bold-font-family: "Poppins";
+    --mobile-body-small-semi-bold-font-weight: 600;
+    --mobile-body-small-semi-bold-font-size: 14px;
+    --mobile-body-small-semi-bold-letter-spacing: 0px;
+    --mobile-body-small-semi-bold-line-height: 139.9999976158142%;
+    --mobile-body-small-semi-bold-font-style: normal;
+    --mobile-body-small-bold-font-family: "Poppins";
+    --mobile-body-small-bold-font-weight: 700;
+    --mobile-body-small-bold-font-size: 14px;
+    --mobile-body-small-bold-letter-spacing: 0px;
+    --mobile-body-small-bold-line-height: 139.9999976158142%;
+    --mobile-body-small-bold-font-style: normal;
+    --mobile-link-medium-font-family: "Poppins";
+    --mobile-link-medium-font-weight: 500;
+    --mobile-link-medium-font-size: 16px;
+    --mobile-link-medium-letter-spacing: 0px;
+    --mobile-link-medium-line-height: 139.9999976158142%;
+    --mobile-link-medium-font-style: normal;
+    --mobile-link-small-font-family: "Poppins";
+    --mobile-link-small-font-weight: 500;
+    --mobile-link-small-font-size: 14px;
+    --mobile-link-small-letter-spacing: 0px;
+    --mobile-link-small-line-height: 139.9999976158142%;
+    --mobile-link-small-font-style: normal;
+    --mobile-button-font-family: "Poppins";
+    --mobile-button-font-weight: 700;
+    --mobile-button-font-size: 14px;
+    --mobile-button-letter-spacing: 0px;
+    --mobile-button-line-height: 139.9999976158142%;
+    --mobile-button-font-style: normal;
+    --mobile-caption-font-family: "Poppins";
+    --mobile-caption-font-weight: 400;
+    --mobile-caption-font-size: 12px;
+    --mobile-caption-letter-spacing: 0px;
+    --mobile-caption-line-height: 139.9999976158142%;
+    --mobile-caption-font-style: normal;
+    --mobile-overline-semi-bold-font-family: "Poppins";
+    --mobile-overline-semi-bold-font-weight: 600;
+    --mobile-overline-semi-bold-font-size: 10px;
+    --mobile-overline-semi-bold-letter-spacing: 0px;
+    --mobile-overline-semi-bold-line-height: 139.9999976158142%;
+    --mobile-overline-semi-bold-font-style: normal;
+    --mobile-overline-medium-font-family: "Poppins";
+    --mobile-overline-medium-font-weight: 500;
+    --mobile-overline-medium-font-size: 10px;
+    --mobile-overline-medium-letter-spacing: 0px;
+    --mobile-overline-medium-line-height: 139.9999976158142%;
+    --mobile-overline-medium-font-style: normal;
+    --m3-elevation-light-2: 0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px
+      rgba(0, 0, 0, 0.3);
+  }
